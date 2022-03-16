@@ -32,7 +32,7 @@ def main():
     generate_report()
     args = {
         'sender': "automation@example.com",
-        'recipient': "student-01-3004faedc11a@example.com",
+        'recipient': "student-01-af05aba7d1c6@example.com",
         'subject': "Upload Completed - Online Fruit Store",
         'body': "All fruits are uploaded to our website successfully. A detailed list is attached to this email.",
         'attachment_path': "/tmp/processed.pdf"

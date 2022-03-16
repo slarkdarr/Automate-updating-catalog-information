@@ -19,7 +19,7 @@ for filename in os.listdir(directory):
     fruit_dictionary['weight'] = int(contents[1].strip(' lbs\n'))
     fruit_dictionary['description'] = contents[2]
     fruit_dictionary['image_name'] = filename.strip('.txt') + '.jpeg'
-    response = requests.post('http://34.132.71.172/fruits/', data=fruit_dictionary)     # Make POST request to the URL
+    response = requests.post('http://34.70.118.12/fruits/', data=fruit_dictionary)     # Make POST request to the URL
 
     # Check out the response status
     print(response.status_code)
